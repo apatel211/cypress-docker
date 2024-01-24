@@ -18,6 +18,6 @@ jobs:
       
     - name: Build & Push image
       run: |
-        docker build -t apatel211/cypress:latest .
+        docker build -t apatel211/cypress1:latest .
         docker login -u ${{ secrets.apatel211 }} -p ${{ secrets.DOCKERHUB_TOKEN }}
-        docker push apatel211/cypress:latest
+        docker push apatel211/cypress1:latest
