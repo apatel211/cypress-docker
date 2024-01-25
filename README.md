@@ -1,9 +1,19 @@
 Install docker 
 Open terminal 
 Run this command 
- docker login
- docker images ls
- docker tag cypress apatel211/latest           
- docker push  apatel211/latest
 
- to run follow command in config 
+To login
+ docker login
+To see list of image 
+ docker images ls
+To push the code change 
+docker-compose up --build
+To run it on terminal 
+ docker-compose -f docker-compose.yml up / docker-compose up
+To create new image 
+ docker tag imageID username/ImageName:version         
+ docker push  username/ImageName:version
+To delete the image
+ docker rmi imageID / docker rmi imageID -f
+
+
