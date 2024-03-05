@@ -1,7 +1,10 @@
 
 npx install cypress - if cypress is not installed 
+
 npx cypress version - check the version 
+
 npx cypress open - run the cypress 
+
 
 
 Install docker Open terminal Run this command 
