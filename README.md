@@ -24,4 +24,6 @@ To create new image
 To delete the image
  docker rmi imageID / docker rmi imageID -f
 
+ Instead of cypress/included:latest should use the cypress version installed in your machine. For example if the cypress version = 12.12.0 --> Then the command should contain cypress/included:12.12.0
+
 
