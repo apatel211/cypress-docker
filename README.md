@@ -1,6 +1,10 @@
-Install docker 
-Open terminal 
-Run this command 
+
+npx install cypress - if cypress is not installed 
+npx cypress version - check the version 
+npx cypress open - run the cypress 
+
+
+Install docker Open terminal Run this command 
 
 To check if Docker container is running use command 
 docker ps -a
